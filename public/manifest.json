@@ -3,7 +3,7 @@
   "name": "Musart web app",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon-32.ico",
       "sizes": "32x32 128x128 180x180 192x192",
       "type": "image/x-icon"
     },
