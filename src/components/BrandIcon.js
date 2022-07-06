@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 
 export default function BrandIcon() {
   return (
     <a
       href="/"
       className="font-medium text-2xl dark:text-white"
-      style={{ fontFamily: "Lexend" }}>
+      style={{ fontFamily: 'Lexend' }}>
       Mus
-      <span className="text-primary" style={{ fontFamily: "Kiwi Maru" }}>
+      <span className="text-primary" style={{ fontFamily: 'Kiwi Maru' }}>
         art
       </span>
-      <span className="text-slate-400 dark:text-white">.</span>
+      <span className="text-black dark:text-white">.</span>
     </a>
   );
 }

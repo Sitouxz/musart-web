@@ -1,15 +1,7 @@
-import Toggle from './components/toggle';
-import BrandIcon from './components/BrandIcon';
+import Home from './pages/Home';
 
 function App() {
-  return (
-    <div className="container flex justify-between my-3">
-      <BrandIcon />
-      <div>
-        <Toggle />
-      </div>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
