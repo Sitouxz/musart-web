@@ -25,18 +25,14 @@ export default function Header() {
           <Navbar.Link href="/">Pricing</Navbar.Link>
           <Navbar.Link href="/">Contact</Navbar.Link>
           <div className="hidden md:block">
-            {/* <Navbar.Link> */}
             <DarkThemeToggle />
-            {/* </Navbar.Link> */}
           </div>
           <div className="hidden md:block">
-            {/* <Navbar.Link href="/"> */}
             <button
               type="button"
               className="text-slate-700  bg-gradient-to-r from-[#69C9FF] to-[#00DACC] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
               Get Started
             </button>
-            {/* </Navbar.Link> */}
           </div>
         </Navbar.Collapse>
       </Navbar>

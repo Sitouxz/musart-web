@@ -1,11 +1,17 @@
 import Header from '../components/Header';
-import bg1 from '../assets/img/bg-img.png';
+// import bg1 from '../assets/img/bg-img.png';
 import blue from '../assets/img/blue-bg.svg';
+import Spline from '@splinetool/react-spline';
+
 export default function Home() {
   return (
-    <div className="bg-light static dark:bg-dark">
+    <div className="bg-light static dark:bg-dark overflow-hidden">
       <Header />
-      <img src={bg1} className="absolute right-0 top-0  " alt="illustration" />
+      {/* <img src={bg1} className="absolute right-0 top-0  " alt="illustration" /> */}
+      <div className="absolute left-96 top-0 w-full h-full">
+        <Spline scene="https://prod.spline.design/yb-mucjnp8qLyV59/scene.splinecode" />
+      </div>
+
       <img
         src={blue}
         className="absolute left-0 top-0 hidden md:block"
