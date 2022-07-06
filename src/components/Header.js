@@ -17,26 +17,26 @@ export default function Header() {
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <Navbar.Link href="/navbars" active={true}>
+          <Navbar.Link href="/" active={true}>
             Home
           </Navbar.Link>
-          <Navbar.Link href="/navbars">About</Navbar.Link>
-          <Navbar.Link href="/navbars">Services</Navbar.Link>
-          <Navbar.Link href="/navbars">Pricing</Navbar.Link>
-          <Navbar.Link href="/navbars">Contact</Navbar.Link>
+          <Navbar.Link href="/">About</Navbar.Link>
+          <Navbar.Link href="/">Services</Navbar.Link>
+          <Navbar.Link href="/">Pricing</Navbar.Link>
+          <Navbar.Link href="/">Contact</Navbar.Link>
           <div className="hidden md:block">
-            <Navbar.Link href="/navbars">
-              <DarkThemeToggle />
-            </Navbar.Link>
+            {/* <Navbar.Link> */}
+            <DarkThemeToggle />
+            {/* </Navbar.Link> */}
           </div>
           <div className="hidden md:block">
-            <Navbar.Link href="/navbars">
-              <button
-                type="button"
-                className="text-slate-700  bg-gradient-to-r from-[#69C9FF] to-[#00DACC] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
-                Get Started
-              </button>
-            </Navbar.Link>
+            {/* <Navbar.Link href="/"> */}
+            <button
+              type="button"
+              className="text-slate-700  bg-gradient-to-r from-[#69C9FF] to-[#00DACC] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+              Get Started
+            </button>
+            {/* </Navbar.Link> */}
           </div>
         </Navbar.Collapse>
       </Navbar>
